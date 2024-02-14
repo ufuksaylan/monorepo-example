@@ -188,7 +188,7 @@ jobs:
                 "DB_HOST": "${{ secrets.PROD_DB_HOST }}",
                 "DB_NAME": "${{ secrets.PROD_DB_NAME }}",
                 "DB_USER": "${{ secrets.PROD_DB_USER }}",
-                "DB_PASSWORD": "${{ secrets.PROD_DB_PASSWORD }}"
+                "DB_PASSWORD": "${{ secrets.PROD_DB_PASSWORD }}",
                 "API_PROXY_PASS": "${{ vars.API_ORIGIN }}"
               }
             }
