@@ -29,7 +29,7 @@ COPY . .
 # client code, Vite requires to use the VITE_ prefix for public environment variables.
 # To not mix up what is used at build time and what is used at runtime, Docker
 # calls the environment variables that are passed in at build time ARGs (arguments).
-# Here we are specifying that we expect two arguments to be passed in at build time.
+# Here we are specifying that we expect two arguments to be passed in at build time.s
 ARG VITE_API_ORIGIN
 ARG VITE_API_PATH
 
