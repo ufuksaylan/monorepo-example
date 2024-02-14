@@ -25,6 +25,8 @@ You are free to look over the other files, but they are not as important for thi
 
 ## Running without Docker
 
+l
+
 ### Setup & Run in-memory
 
 ```sh
