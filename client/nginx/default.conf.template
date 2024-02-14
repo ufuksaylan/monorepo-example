@@ -17,7 +17,7 @@ server {
 
   # All /api requests are forwarded to the Node.js server
   location /api {
-    proxy_pass http://server:3000;
+    proxy_pass $API_PROXY_PASS;
 
     # Allow WebSockets if your API uses them.
     # This is not necessary for our app, but it might be for yours.
