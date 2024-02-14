@@ -144,7 +144,7 @@ jobs:
           --build-arg VITE_API_PATH=$API_PATH
           -f ./client/Dockerfile .
         env:
-          API_ORIGIN: 'https://routeoptimization.qmmjto488dmgk.eu-central-1.cs.amazonlightsail.com'
+          API_ORIGIN: 'http://localhost:3000'
           API_PATH: '/api/v1/trpc'
 
       - name: Push server image
